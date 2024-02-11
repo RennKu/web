@@ -37,6 +37,7 @@ btnNo.addEventListener("mouseover", (event) => {
 
 btnYes.addEventListener("click", (e) => {
   btnNo.classList.add("hide");
+  btnYes.classList.add("hide");
   imageOne.classList.add("hide");
   imageTwo.classList.remove("hide");
   imageTree.classList.remove("hide");
